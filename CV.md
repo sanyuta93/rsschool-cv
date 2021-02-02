@@ -1,6 +1,6 @@
 ### **Harko Alexandra**
 #### **Contact information:**
-Tel.number: (29)313-28-19, e-mail: sanyuta93@gmail.com
+Tel.number: (29)313-28-19, e-mail: *sanyuta93@gmail.com*
 #### **My target and priorities:**
 learn Javascript course, learn to write good code and apply for a job. I want to be demanded specialist. I have no experience in this field, but I like to try and learn something new.
 #### **Skills:**
