@@ -11,6 +11,7 @@ function random(min, max) {
 	return min + Math.random()*(max - min);
 }
 ```
+
 #### **Education, experience:**
 I graduated from Belarusian State Economic University, specialty economist-manager. 
 
