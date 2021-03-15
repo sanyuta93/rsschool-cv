@@ -1,0 +1,306 @@
+.main
+{
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+}
+
+.content
+{
+  width: 1200px;
+}
+
+.fox
+{
+  background: url(assets/fox.jpg);
+  height: 780px;
+  background-color: #02160b;
+}
+
+.articles
+{
+  height: 1368px;
+  background-color: #cccccc;
+}
+
+
+.bottom
+{
+  background-color: #181617;
+  background: url(assets/rectangle.jpg);
+  height: 359px;
+}
+
+
+.header
+{
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  padding-top: 19px;
+}
+
+
+.header div{
+  width: fit-content;
+}
+
+.header .left
+{
+  display: flex;
+  align-items: center;
+}
+
+.header .left h1{
+  text-transform: uppercase;
+  padding:15px;
+  font-family: 'Roboto', sans-serif;
+  color: #F7F7F7;
+  font-weight: normal;
+}
+
+.header .right
+{ 
+  position: relative;
+  top: -20px;
+  right: 0px;
+  font-family: Open Sans;
+  font-size: 21px;
+  line-height: 65px;
+  }
+
+.header .right .right_nav ul li {
+  margin-left: 31px;
+  margin-right: 31px;
+  display: inline;
+  
+}
+
+.header .right .right_nav ul li a {
+  color: #F7F7F7;
+  text-decoration: none;
+}
+
+.header .right .right_nav ul li a:hover,
+.header .right .right_nav ul li button:hover {
+  color:#CD6326 ;
+  transition: all 300ms ease-in-out;
+}
+
+.header .right .right_nav ul li img {
+  position: relative;
+  top: 9px;
+  cursor: pointer;
+}
+
+.button {
+  position: relative;
+  width: 120px;
+  height: 50px;
+  top: 0px;
+  padding: 2px 23px;
+  border-radius: 5px;
+  border: 2px solid #CD6326;
+  background:none;
+  transition: 0.2s;
+  color: #F7F7F7;
+  font-size: 21px;
+}
+
+.survival{
+  height: 340px;
+  width: 500px;
+  margin-top: 139px;
+}
+
+.content h2 {
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 72px;
+  color: #CD6326;
+}
+
+.text {
+  position: relative;
+  width: 274px;
+  font-family: Open Sans;
+  font-size: 18px;
+  line-height: 27px;
+  color: #C4C4C4;
+}
+
+.button_1 {
+  position: relative;
+  width: 160px;
+  height: 60px;
+  border-radius: 5px;
+  background: #CD6326;
+  font-family: Roboto;
+  color: #F7F7F7;
+  font-size: 23px;
+  border: none;
+  top: 70px;
+}
+
+.button_1:hover {
+  color:#333333 ;
+  transition: all 300ms ease-in-out;
+}
+
+.content h3 {
+  position: relative;
+  font-family: Open Sans;
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: normal;
+  text-align: center;
+  color: #333333;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 90px;
+  align-items: center;
+
+}
+
+.footer h5 {
+  padding: 15px;
+  font-size: 32px;
+  line-height: 60px;
+}
+
+.foot_logo{
+  display: flex;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  color: #F7F7F7;
+  font-weight: normal;
+  align-items: center;
+  width: fit-content;
+}
+
+.foot_nav ul li{
+  display:inline;
+  margin-left: 31px;
+  margin-right: 31px;
+ }
+
+
+
+.foot_social{
+  background-color: darkgray;
+}
+
+
+
+.subtitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  top: 212px;
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #666666;
+}
+
+.pictures {
+  display: flex;
+  position: relative;
+  top: 100px;
+}
+
+.arrow {
+  position: relative;
+  top: 150px;
+  cursor: pointer;
+}
+
+
+
+.fig_1 h4,
+.fig_2 h4,
+.fig_3 h4 {
+  display: flex;
+  position: relative;
+  bottom: 145px;
+  left: 115px;
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+  color: #F7F7F7;
+}
+
+.text_1 {
+  position: relative;
+  bottom: 160px;
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 27px;
+  text-align: center;
+  color: #F7F7F7;
+}
+
+
+.adress {
+  margin-top: 350px;
+  
+}
+.email {
+  position:relative;
+    top:50%; 
+    left:300px;
+}
+
+.email button {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 27px;
+align-items: center;
+text-align: center;
+color: #F7F7F7;
+background: #CD6326;
+border: 1px solid #CD6326;
+border-radius: 0px 5px 5px 0px;
+width: 120px;
+height: 59px;
+}
+.email button:hover {
+  color:#333333 ;
+  transition: all 300ms ease-in-out;
+}
+
+.email input {
+  border: 1px solid #666666;
+  outline: none;
+  height: 55px;
+  width: 540px;
+  color: #666666;
+  font-size: 23px;
+  float: left;  
+}
+.adress span {
+  display: flex;
+  position: relative;
+  margin: auto;
+  left: 350px;
+  margin-bottom: 60px;
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 40px;
+  color: #333333;
+}
+
